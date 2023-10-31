@@ -43,7 +43,7 @@ const questions = [
       },
       {
         type: 'list',
-        message: 'Select Inclided License:',
+        message: 'Select Included License:',
         choices: [
 
             "Apache",

@@ -42,7 +42,7 @@ function renderLicenseLink(license) {
 // If there is no license, return an empty string
 function renderLicenseSection(license) {
 
-  if (lincense === undefined){
+  if (license === undefined){
     return ""
   } else{
 
@@ -69,8 +69,8 @@ function generateMarkdown(data) {
   - [Application Link](#link)
   - [Contributions Guide](#contribute)
   - [Contributions and Credits](#contributors)
-  - [License] (#license)
-  - [Questions] (#question)
+  - [License](#license)
+  - [Questions](#question)
 
   ## Installation Guide:
 
